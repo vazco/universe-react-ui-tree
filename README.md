@@ -6,7 +6,7 @@ React tree component
 ### Installation
 ``` sh
 meteor add universe:react-ui-tree
-//And if you not have yet:
+//if you don't have yet:
 meteor add universe:modules
 ```
 ### Usage
