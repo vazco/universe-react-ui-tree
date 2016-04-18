@@ -240,7 +240,9 @@ export default React.createClass({
         this.setState({
             tree: tree
         });
-
+        if(typeof this.props.onCollapsed === 'function'){
+            this.props.onCollapsed(index.node._id);
+        }
         this.change(tree);
     }
 });

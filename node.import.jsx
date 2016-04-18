@@ -11,7 +11,7 @@ var Node = React.createClass({
 
             return (
                 <span
-                    className={classNames('collapse', collapsed ? 'caret-right' : 'caret-down')}
+                    className={classNames('collapse', collapsed ? 'caret-left' : 'caret-down')}
                     onMouseDown={(e) => e.stopPropagation()}
                     onClick={this.handleCollapse}>
         </span>
@@ -73,8 +73,8 @@ var Node = React.createClass({
             })} style={styles}>
 
                 <div className="inner" ref="inner" onTouchStart={prs.onTouchStart} onMouseDown={prs.onMouseDown}>
-                    {this.renderCollapse()}
                     {tree.renderNode(node)}
+                    {this.renderCollapse()}
                 </div>
                 {this.renderChildren()}
             </div>
