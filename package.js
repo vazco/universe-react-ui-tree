@@ -1,5 +1,5 @@
 Package.describe({
-    name: 'universe:react-ui-tree',
+    name: 'universe:react-ui-tree2',
     version: '1.0.0',
     // Brief, one-line summary of the package.
     summary: 'React tree component for meteor (It use universe modules) ',
