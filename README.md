@@ -1,6 +1,15 @@
-## Abandonware
+<h1 align="center">
+    <a href="https://github.com/vazco">vazco</a>/Universe React UI Tree
+</h1>
 
-# Universe React UI Tree
+&nbsp;
+
+<h3 align="center">
+  -- Abandonware. This package is deprecated! --
+</h3>
+
+&nbsp;
+
 React tree component
 
 <img src="https://raw.githubusercontent.com/vazco/universe-react-ui-tree/master/view.jpg"/>
@@ -48,6 +57,9 @@ import Tree from '{universe:react-ui-tree}';
 ```
 
 ### License
-MIT
 
-Made based on npm package pqx/react-ui-tree (not just adapted)
+Made based on npm package pqx/react-ui-tree (not just adapted).
+
+<img src="https://vazco.eu/banner.png" align="right">
+
+**Like every package maintained by [Vazco](https://vazco.eu/), Universe React UI Tree is [MIT licensed](https://github.com/vazco/uniforms/blob/master/LICENSE).**
